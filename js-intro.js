@@ -7,37 +7,66 @@ var mantra = "Be the dev"
 
 // 1a. Write the code that determines if there is a 'B' in mantra.
 
+var mantra = "Be the dev"
+
+console.log(mantra.includes("B"));
+
 
 
 // 1b. Write the code that determines if there is an 'x' in mantra.
+
+var mantra = "Be the dev"
+
+console.log(mantra.includes("x"));
 
 
 
 // 1c. Write the code that determines if there is a 'v' in mantra.
 
+var mantra = "Be the dev"
+
+console.log(mantra.includes("v"));
+
 
 
 // 1d. STRETCH: Write a function that can take two arguments - a string and a letter and returns a sentence telling the user if the letter exists within the string.
+var x = "taco""g";
+var n = x.includes("g");
 
-
-
+console.log(x)
 // ------------------------------ Consider the following variables:
 
 var myDog = "Snoopy"
 var myCat = "Garfield"
 
 // 2a. Create a function that returns the longer of the two variables. Expected output: "Garfield"
+var myDog = "Snoopy"
+var myCat = "Garfield"
+
 
 
 
 
 // 2b. Create a function that takes in two arguments and returns an array containing the two variables. Expected output: ["Snoopy", "Garfield"]
-
-
-
-
+\
+var myDog = "Snoopy"
+var myCat = "Garfield"
+ const x = (array) => {
+     let newArr= []
+     x.push(array)
+     
+ }
+    return newArr
+}
+console.log(x)
+    
 // 2c. STRETCH: Write a function that accepts two variables and returns a string in all lowercase letters. Expected output: "snoopy garfield"
+var myDog = "Snoopy"
+var myCat = "Garfield"
 
+function x {
+    
+}
 
 
 
@@ -51,7 +80,8 @@ var myMessage = "Learning is fun!"
 
 // 3b. Write the code that logs each letter of the message using map.
 
-
+var myMessage = "Learning is fun!"
+console.log(myMessage.map)
 
 // 3c. STRETCH: Write the code that logs each letter of the message using a while loop.
 
